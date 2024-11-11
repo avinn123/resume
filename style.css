@@ -1,0 +1,36 @@
+.container{
+        position: relative;
+}
+
+.dev{
+    font-size: 2rem;
+    color: #E2F1E7;
+    /* text-decoration: underline; */
+}
+
+
+
+#title{
+    background-image: url("./images/nightSky.jpg");
+}
+
+
+.nav-link{
+    color: teal;
+}
+
+h1, h2{
+    color: teal;
+    font-family:cursive;
+}
+
+#arvind{
+    border-radius: 50%;
+}
+
+#footer{
+    background-image: url("./images/nightSky.jpg");
+}
+/* #feature{
+    background-color: turquoise;
+} */

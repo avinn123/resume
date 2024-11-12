@@ -1,12 +1,74 @@
-<h1>Personal Information</h1>
-<hr />
-<ul>
-<li>Father’s Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: R Sundaramurthy</li>
-<li>Mother’s Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: R Kalaiarasi</li>
-<li>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Male</li>
-<li>Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 05-09-1987</li>
-<li>Marital Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Married</li>
-<li>Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Indian</li>
-<li>Languages Known&nbsp;&nbsp;: English , Hindi ,Tamil</li>
-<li>Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Running, reading books.</li>
-</ul>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Murthy - Personal Info</title>
+    <style>
+        td, th{
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd){
+             background-color: #dddddd;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1{
+            text-align: center;
+            color: teal;
+            background-color: black;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Information</h1>
+        <table>
+            <tr>
+                <th>Father’s Name</th>
+                <td>R Sundaramurthy</td>
+            </tr>
+            <tr>
+                <th>Mother's Name</th>
+                <td>R Kalaiarasi</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <th>Date Of Birth</th>
+                <td>5th September 1987</td>
+            </tr>
+            <tr>
+                <th>Marital Status</th>
+                <td>Married</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>Indian</td>
+            </tr>
+            <tr>
+                <th>Languages Known</th>
+                <td>Tamil, English, Hindi</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

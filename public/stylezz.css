@@ -1,0 +1,41 @@
+.header{
+    background-color:black;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: teal;
+}
+
+
+p{
+  font-size: 16pt;       
+}
+
+.details{
+    padding: 1px;
+    margin-top: 5px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#address{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    
+    
+}
+
+#name{
+    font-size: 20pt;
+    color: teal;
+}
+.container{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
